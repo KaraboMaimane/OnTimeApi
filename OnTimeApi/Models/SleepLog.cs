@@ -7,6 +7,9 @@ public class SleepLog
     [Key]
     public Guid Id { get; set; }
     
+    [Required]
+    public Guid UserId { get; set; }
+    
     public DateTime Created_At { get; set; }
     
     [Required]

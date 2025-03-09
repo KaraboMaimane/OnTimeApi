@@ -44,7 +44,7 @@ public class PreferencesController: ControllerBase
         return Ok(preferences);
     }
     
-    // POST: api/Preferences
+    
     [HttpPost]
     public async Task<IActionResult> CreateOrUpdatePreferences([FromBody] UserPreference preferences)
     {
