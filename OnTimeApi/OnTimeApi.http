@@ -1,0 +1,6 @@
+@OnTimeApi_HostAddress = http://localhost:5230
+
+GET {{OnTimeApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
