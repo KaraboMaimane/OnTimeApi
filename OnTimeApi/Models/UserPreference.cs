@@ -18,6 +18,7 @@ public class UserPreference
     public TimeSpan IdealWakeTime { get; set; }
     
     [Required]
+    [MaxLength(100)]
     public string WorkAddress { get; set; }
     
     [Required]
